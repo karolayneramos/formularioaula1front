@@ -11,16 +11,65 @@
     </style>
 </head>
 <body>
-    <h1>Formulário Dux</h1>
+    <h1> Sistema de Cadastro Funcionários </h1>
     <form action="" method="POST" autocomplete="off">
 
-<p> <label for="inome">Nome:</label>
-<input type="text" name="nome" id="inome"> </p> 
+<a href="funcionario.html">Funcionário</a> |
+<a href="dependentes.html">Dependentes</a> |
+<a href="plano.html">Plano de Saúde</a>
+
+ <h2>Funcionário</h2>
+
+ <p><label for="inome">Nome:</label></p>
+<input type="text" name="nome" id="inome">  
 
 <p><label for="isobrenome">Sobrenome:</label></p>
 <input type="text" name="sobrenome" id="isobrenome">
 
+<p><label for="icpf">CPF:</label></p>
+<input type="text" name="cpf" id="icpf">
+
+<p><label for="idt_nascimento">Data de Nascimento:</label></p>
+<input type="date" name="dt_nascimento" id="idt_nascimento">
+
+<p><label for="iemail">Email:</label></p>
+<input type="email" name="email" id="iemail">
+
+<p><label for="itelefone">Telefone:</label></p>
+<input type="tel" name="telefone" id="itelefone">
+
+<p><label for="icargo">Cargo:</label></p>
+<input type="text" name="cargo" id="icargo">
+
+<p><input type="submit" value="Avançar"></p> 
+<p><input type="submit" value="Voltar"></p>
+
+ 
+
+
+ <form action="plano.html" method="get"></form>
+<h2>Dependentes</h2>
+
+<p><label for="inome_dependente">Nome:</label></p>
+<input type="text" name="nome_dependente" id="inome_dependente">
+
+<p><label for="iparentesco">Parentesco:</label></p>
+<input type="text" name="parentesco" id="iparentesco">
+
+<p><input type="submit" value="Avançar"></p> 
+<p><input type="submit" value="Voltar"></p>
+
+<h2>Plano de Saúde</h2>
+<p><label for="ioperadora">Operadora:</label></p>
+<input type="text" name="operadora" id="ioperadora">
+
+<p><label for="id">ID:</label></p>
+<input type="text" name="id" id="id">
+
+<p><input type="submit" value="Voltar"></p>
 <p><input type="submit" value="Enviar"></p>
-    </form>
+   
+
+   
 </body>
 </html>
