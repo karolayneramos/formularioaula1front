@@ -1,0 +1,49 @@
+
+/* fundo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* caixa central */
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* títulos */
+h1, h2 {
+    text-align: center;
+}
+
+/* inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* botão */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* efeito ao passar o mouse */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}

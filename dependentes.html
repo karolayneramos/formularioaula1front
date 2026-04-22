@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dependentes</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1> Sistema de Cadastro Funcionários </h1>
+
+
+<a href="funcionario.html">Funcionário</a> |
+<a href="dependentes.html">Dependentes</a> |
+<a href="plano.html">Plano de Saúde</a>
+
+<h2>Dependentes</h2>
+
+<form action="plano.html" method="get">
+
+<p><label for="inome_dependente">Nome:</label></p>
+<input type="text" name="nome_dependente" id="inome_dependente">
+
+<p><label for="iparentesco">Parentesco:</label></p>
+<input type="text" name="parentesco" id="iparentesco">
+
+<p><input type="submit" value="Avançar"></p> 
+
+</form>
+
+<button onclick="history.back()">Voltar</button>
+</div>
+</body>
+</html>
